@@ -1,0 +1,17 @@
+CURSO
+id int primary key,
+nome varchar(255),
+carga_horaria varchar(255),
+mensalidade varchar(255));
+
+alunos
+cpf varchar(255) primary key,
+idade int,
+nome varchar(255),
+email varchar(255));
+
+turma 
+id int primary key,
+sala int, 
+num_alunos int,
+disciplinas varchar(255));
